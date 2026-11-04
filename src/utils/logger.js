@@ -1,0 +1,1 @@
+module.exports={info:(...x)=>console.log(new Date().toISOString(),'INFO',...x),error:(...x)=>console.error(new Date().toISOString(),'ERROR',...x)};
